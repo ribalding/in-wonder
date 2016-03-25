@@ -13,10 +13,13 @@ $(document).ready(function(){
 
     if (personality === 1){
       iceland += 1;
+      newZealand += 1;
     } else if (personality === 2){
       amsterdam += 1;
+      ibiza += 1;
     } else if (personality === 3){
       newZealand += 1;
+      iceland += 1;
     } else if (personality === 4){
       ibiza += 1;
     }
@@ -27,6 +30,7 @@ $(document).ready(function(){
       amsterdam += 1;
     } else if (art === 3){
       newZealand += 1;
+      amsterdam += 1;
     } else if (art === 4){
       ibiza += 1;
     }
@@ -35,52 +39,60 @@ $(document).ready(function(){
       iceland += 1;
     } else if (color === 2){
       amsterdam += 1;
+      iceland += 1;
     } else if (color === 3){
       newZealand += 1;
+      ibiza += 1;
     } else if (color === 4){
       ibiza += 1;
+      newZealand += 1;
     }
 
     if (music === 1){
       iceland += 1;
     } else if (music === 2){
       amsterdam += 1;
+      iceland += 1;
     } else if (music === 3){
       newZealand += 1;
     } else if (music === 4){
       ibiza += 1;
+      newZealand += 1;
     }
 
     if (school === 1){
       iceland += 1;
     } else if (school === 2){
       amsterdam += 1;
+      ibiza += 1;
     } else if (school === 3){
       newZealand += 1;
+      iceland += 1;
     } else if (school === 4){
       ibiza += 1;
+      amsterdam += 1;
     }
 
     if (iceland >= 3){
-      $('#columnA').removeClass("col-sm-offset-4");
+      $('#columnA').removeClass("col-md-offset-4");
       $('#newZealand').hide();
       $('#ibiza').hide();
       $('#amsterdam').hide();
       $('#iceland').fadeIn();
     } else if (amsterdam >= 3) {
-      $('#columnA').removeClass("col-sm-offset-4");
+      $('#columnA').removeClass("col-md-offset-4");
       $('#newZealand').hide();
       $('#ibiza').hide();
       $('#iceland').hide();
       $('#amsterdam').fadeIn();
     } else if (newZealand >= 3) {
-      $('#columnA').removeClass("col-sm-offset-4");
+      $('#columnA').removeClass("col-md-offset-4");
       $('#iceland').hide();
       $('#ibiza').hide();
       $('#amsterdam').hide();
       $('#newZealand').fadeIn();
     } else if (ibiza >= 3){
-      $('#columnA').removeClass("col-sm-offset-4");
+      $('#columnA').removeClass("col-md-offset-4");
       $('#iceland').hide();
       $('#newZealand').hide();
       $('#amsterdam').hide();
