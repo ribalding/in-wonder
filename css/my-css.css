@@ -1,5 +1,6 @@
 body {
   background-image:url('../img/balloons.jpg');
+  background-attachment:fixed;
 }
 
 img{
@@ -49,7 +50,7 @@ h1{
 }
 
 .ibizaPic{
-  width: 150%;
+  width: 90%;
 }
 
 .subheader{

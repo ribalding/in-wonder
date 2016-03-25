@@ -62,21 +62,25 @@ $(document).ready(function(){
     }
 
     if (iceland >= 3){
+      $('#columnA').removeClass("col-sm-offset-4");
       $('#newZealand').hide();
       $('#ibiza').hide();
       $('#amsterdam').hide();
       $('#iceland').fadeIn();
     } else if (amsterdam >= 3) {
+      $('#columnA').removeClass("col-sm-offset-4");
       $('#newZealand').hide();
       $('#ibiza').hide();
       $('#iceland').hide();
       $('#amsterdam').fadeIn();
     } else if (newZealand >= 3) {
+      $('#columnA').removeClass("col-sm-offset-4");
       $('#iceland').hide();
       $('#ibiza').hide();
       $('#amsterdam').hide();
       $('#newZealand').fadeIn();
     } else if (ibiza >= 3){
+      $('#columnA').removeClass("col-sm-offset-4");
       $('#iceland').hide();
       $('#newZealand').hide();
       $('#amsterdam').hide();

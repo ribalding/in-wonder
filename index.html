@@ -5,19 +5,17 @@
       <script src="js/my.js"></script>
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
       <link href="css/my-css.css" rel="stylesheet" type="text/css">
-      <title>Vacation</title>
+      <title>In Wonder</title>
     </head>
     <body>
       <div class="container">
-        <h1 class="jumbotron">Vacation</h1>
-        <div class="subheader">
-          <h4>The world is a big and wonderous place.
-              With so many possible destinations to visit, how is one to choose?<br>
-              Use this handy quiz to determine <em>your</em> ideal vacation destination.</h4>
+        <div class="jumbotron">
+          <h1>In Wonder</h1>
+          <h2>What's <em>your</em> ideal vacation destination?</h2>
         </div>
         <!-- Start Questions Form -->
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-offset-4 col-sm-4" id="columnA">
             <form id="vacationForm">
               <div class="questions">
                 <label for="personality">What Term Best Describes You?</label>
@@ -49,10 +47,10 @@
               <div class="questions">
                 <label for="music">What Kind of Music Appeals To You The Most?</label>
                 <select id="music" class="form-control">
-                  <option value="2">Electronic Dance Music</option>
+                  <option value="4">Electronic Dance Music</option>
                   <option value="1">Metal</option>
-                  <option value="4">Reggae</option>
-                  <option value="3">Classical</option>
+                  <option value="3">Acoustic</option>
+                  <option value="2">Classical</option>
                 </select>
               </div>
               <div class="questions">
@@ -60,7 +58,7 @@
                 <select id="school" class="form-control">
                   <option value="4">Art</option>
                   <option value="1">Math</option>
-                  <option value="2">Humanities</option>
+                  <option value="2">History</option>
                   <option value="3">Science</option>
                 </select>
                 <div class="questions">
@@ -76,7 +74,7 @@
             <div class="col-sm-8">
               <div class="destination">
                 <h2>Your ideal destination is Ibiza</h2>
-                <img src="img/ibiza.jpg">
+                <img src="img/ibiza.jpg" alt="Ibiza">
                 <p>Your relaxed and carefree nature lends itself well to the beautiful beaches of this<br>
                    Mediterrranean Spanish island. While you can spend your days <br>
                    relaxing and taking in the sun, the nightlife offers more exciting opportunities. <br>
@@ -88,6 +86,12 @@
           <div id="newZealand">
             <div class="col-sm-8">
               <div class="destination">
+                <h2>Your ideal destination is New Zealand</h2>
+                <img src="img/newzealand.jpg" alt="New Zealand">
+                <p>Having been the filming location for the "Lord of the Rings" trilogy, <br>
+                  it should come as no surprise that New Zealand is the home of truly breathtaking scenery. <br>
+                  One of the last islands to every be inahbited by humans, nearly all of the natural beauty <br>
+                  remains intact and is a constant draw for nature enthusiasts of all stripes.</p>
               </div>
             </div>
           </div>
@@ -96,8 +100,8 @@
             <div class="col-sm-8">
               <div class="destination">
                 <h2>Your ideal destination is Iceland</h2>
-                <img src="img/iceland.jpg" class="ibizaPic">
-                <p>The stark and quiet beauty of this sparsely populated island European nation will be perfect for you.<br>
+                <img src="img/iceland.jpg" alt="Iceland">
+                <p>The stark and quiet beauty of this sparsely populated European island nation will be perfect for you.<br>
                    While nightlife and other social activies are minimal, the mountains, glaciers, northern lights, <br>
                    lava fields and black sand beaches will captivate the more reflective, introspctive type <br>
                    and all appreciators of beauty. </p>
@@ -108,6 +112,13 @@
           <div id="amsterdam">
             <div class="col-sm-8">
               <div class="destination">
+                <h2>Your ideal destination is Amsterdam</h2>
+                <img src="img/amsterdam.jpg" alt="Amsterdam">
+                <p>History lovers will flock to the famous capital of the Netherlands. <br>
+                   This canal based city is not only historic (having been home to Anne Frank,<br>
+                   Rembrandt and Spinoza, as well as the world's oldest stock exchange), <br>
+                   but beautiful as well.  It's famously liberal policies regarding recreational drug use <br>
+                   has made it a hot spot for young tourists for many years.</p>
               </div>
             </div>
           </div>
