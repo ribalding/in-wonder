@@ -1,0 +1,74 @@
+body {
+  background-image:url('../img/balloons.jpg');
+}
+
+img{
+  max-width: 100%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #F5F5F5;
+}
+
+h1{
+  font-size: 500%;
+}
+
+.container{
+  margin-bottom: 15px;
+}
+
+.jumbotron{
+  color: #F5F5F5;
+  background-color: transparent;
+  border: 2px solid #F5F5F5;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.questions{
+  padding: 15px 0px;
+}
+
+.destination{
+  border: 2px solid #F5F5F5;
+  border-radius: 3px;
+  padding: 15px 5px;
+}
+
+.destination h2{
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.destination p{
+  color: #F5F5F5;
+  margin: 5px 10px 5px 80px;
+}
+
+.ibizaPic{
+  width: 150%;
+}
+
+.subheader{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#ibiza{
+display: none;
+}
+
+#newZealand{
+  display: none;
+}
+
+#iceland{
+  display: none;
+}
+
+#amsterdam{
+  display: none;
+}
